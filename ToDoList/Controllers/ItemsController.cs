@@ -84,7 +84,6 @@ namespace ToDoList.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
-
 //     public ActionResult Delete(int id)
 //     {
 //       var thisItem = _db.Items.FirstOrDefault(items => items.ItemId == id);
